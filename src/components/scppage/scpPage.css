@@ -1,0 +1,24 @@
+.scp__container {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.scp__container-highlights {
+    padding: 0.5rem;
+    background-color: var(--secondary-color);
+    margin-top: var(--default-padding);
+    margin-bottom: var(--default-padding);
+    color: var(--main-white);
+}
+
+.scp__container-content {
+    text-align: center;
+    background-color: var(--ternary-color);
+    padding: 0.9rem 0 0.9rem 0;
+    border-radius: var(--container-radius-lg);
+}
