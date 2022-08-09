@@ -1,0 +1,14 @@
+#work-area {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.workarea-content {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 60%;
+    width: 65%;
+}

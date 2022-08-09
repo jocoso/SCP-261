@@ -1,14 +1,14 @@
 import React from 'react';
 
 // import local
-import './scpPage.css';
+import './scp_section.css';
 
 // Assets
 import MachineImg from '../../assets/SCP-294.png';
 
-const SCPPage = () => {
+const SCPSection = () => {
     return (
-            <section id="scp-page">
+            <section id="scp-section">
             {/*Selections*/}
             <div className="container scp__container">
                 <div className="scp__container-content">
@@ -48,4 +48,4 @@ const SCPPage = () => {
         );
 }
 
-export default SCPPage;
+export default SCPSection;

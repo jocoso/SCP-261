@@ -1,11 +1,11 @@
-.scp__container {
+#scp-section {
+    height: 100%;
+    width: 100%;
+}
 
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.scp__container {
+    height: inherit;
+    width: inherit;
 }
 
 .scp__container-highlights {
@@ -20,5 +20,7 @@
     text-align: center;
     background-color: var(--ternary-color);
     padding: 0.9rem 0 0.9rem 0;
-    border-radius: var(--container-radius-lg);
+    border-radius: 0.5rem 0 0 0.5rem;
+    min-width: 100%;
+    min-height: 100%;
 }

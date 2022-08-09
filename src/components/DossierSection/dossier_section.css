@@ -1,0 +1,48 @@
+#dossier {
+    height: 100%;
+    width: 100%;
+}
+
+.dossier__container {
+    height: inherit;
+    width: inherit;
+}
+
+.dossier__container-highlights {
+    /*Positioning*/
+    margin-top: var(--default-padding);
+    margin-bottom: var(--default-padding);
+    padding: 0.5rem;
+    /*Colors and Images*/
+    color: var(--main-white);
+    background-color: var(--secondary-color);
+    /*Size and Looks*/
+}
+
+.dossier__container-content {
+    /*Positioning*/
+    text-align: center;
+    padding: 0.9rem 0 0.9rem 0;
+    /*Colors and Images*/
+    background-color: var(--main-color);
+    background-image: url('../../assets/linepaper_texture.png');
+    /*Size and Looks*/
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 0 0.5rem 0.5rem 0;
+    overflow: hidden;
+}
+
+.dossier__container-itemcontainer {
+    /*Positioning*/
+    /*Colors and Images*/
+    /*Size and Looks*/
+    height: 33rem;
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+}
+
+.dossier__container-itemcontainer::-webkit-scrollbar {
+        
+    display: none;
+}

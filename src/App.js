@@ -1,12 +1,12 @@
 import './App.css';
 
 // Components
-import SCPPage from './components/scppage/scpPage';
+import WorkArea from './components/WorkArea/workArea';
 
 const App = () => {
     return (
         <>
-            <SCPPage />
+            <WorkArea />
         </>
     );
 }

@@ -3,25 +3,32 @@
     --secondary-color: #1D1D1D;
     --ternary-color: #898989;
     --main-white: #ffffff;
+    --pitch-black: #000000;
 
     --default-padding: 0.9rem;
+    --container-radius-lg: 0.5rem;
+    --default-margin-separation: 0.7rem;
 
     --container-width-lg: 25%;
     --container-width-md: 46%;
     --container-width-sm: 80%;
-    --container-radius-lg: 0.5rem;
 }
 
 body {
-    background-color: var(--main-color);
     color: var(--secondary-color);
+    height: 100vh;
+
+    /*Background Work*/
+    background-color: var(--main-white);
+    background-image: url('./assets/bg_texture.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* ================ General Styles ================ */
 
 .container {
     width: var(--container-width-lg);
-    margin: 0 auto;
 }
 
 /* ============== Media Queries (Medium Devices) ============== */
